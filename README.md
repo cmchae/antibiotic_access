@@ -75,29 +75,34 @@ These workflows use data from multiple sources, including:
 
 - Demographic and Health Surveys (DHS)
 - Institute for Health Metrics and Evaluation (IHME) Global Burden of Disease (GBD) data
-- Antibiotic consumption data
+- antibiotic consumption data from One Health Trust
 - World Bank indicators
 - WHO data
-- Other publicly available country-level covariates
+- other publicly available country-level covariates
 
-Some source datasets cannot be redistributed through this repository. In particular, individual-level DHS microdata and specific IHME/GBD data extracts used in the original analysis are not included.
+Some source datasets are not redistributed through this repository. In particular:
 
-Therefore, the upstream workflows are provided primarily for transparency and documentation and are not intended to be fully self-contained without independently obtaining and reconstructing the required source-data inputs.
+- individual-level DHS microdata must be obtained directly from The DHS Program;
+- specific IHME/GBD data extracts used in the original analysis must be reconstructed from the corresponding source data; and
+- antibiotic consumption data used in the upstream analysis should be obtained directly from One Health Trust.
+
+The upstream workflows are therefore provided primarily for transparency and documentation and are not intended to be fully self-contained without independently obtaining and preparing the required source-data inputs.
 
 See `data/README.md` and `data/datasets/README.md` for details.
 
 ## Data availability
 
-Publicly shareable input datasets required by the analysis are included in the `data/` directory.
+Several publicly shareable country-level input datasets are included in the `data/` directory.
 
-Restricted or non-redistributed source data include:
+Other source data used in the upstream analysis should be obtained directly from the original providers:
 
-- individual-level DHS microdata
-- specific IHME/GBD source-data extracts used in the upstream analysis
+- **Demographic and Health Surveys (DHS):** https://dhsprogram.com/data
+- **Antibiotic consumption data:** https://resistancemap.onehealthtrust.org/AntibioticUse.php
+- **IHME/GBD data:** corresponding source data should be obtained from IHME and used to reconstruct the extracts required by the upstream scripts.
 
-Users must obtain access to these data directly from the respective data providers.
+The expected structure and location of these source files are documented in `data/README.md`.
 
-Publicly shareable analysis checkpoint files used for downstream reproduction are archived separately on Zenodo.
+All analysis checkpoint files required for the publicly supported downstream reproduction workflow are archived separately on Zenodo.
 
 ## Zenodo archive
 
