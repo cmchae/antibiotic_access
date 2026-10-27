@@ -15,7 +15,6 @@ outputs/*
 !outputs/README.md
 
 # Local / unused files
-*.Rproj
 figures/
 data/under_5.csv
 data/UNIndex/pc_gdp.RDS
