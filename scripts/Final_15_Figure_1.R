@@ -340,6 +340,12 @@ plot_data_all <- bind_rows(
   ) %>%
   arrange(Measure, Syndrome, Period, Country)
 
+dir.create(
+  "outputs/plot_objects",
+  recursive = TRUE,
+  showWarnings = FALSE
+)
+
 write.csv(
   plot_data_all,
   "outputs/plot_objects/figure_1.csv",

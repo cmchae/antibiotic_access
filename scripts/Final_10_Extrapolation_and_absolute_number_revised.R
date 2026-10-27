@@ -881,6 +881,13 @@ rm(income_dist, income_dist_summary, first_sim, first5_years, last5_years)
 Country_Year_info <- Country_Year_meta %>% inner_join(AbLRI_matrix_2[,c(1:7,10008:10009)], by = c("Country", "Year"))
 Country_Year_info <- Country_Year_info[,c("Country","Year","GDP","Last5","Malaria","GBD_region","Population")]
 Country_Year_info_2 <- Country_Year_info %>% dplyr::select(Country, Last5, Malaria, GBD_region, Population) %>% filter(!duplicated(Country))
+
+dir.create(
+  "outputs/draft_df",
+  recursive = TRUE,
+  showWarnings = FALSE
+)
+
 write.csv(Country_Year_info, "outputs/draft_df/Suppl_3_108LMICs.csv")
 write.csv(Country_Year_info_2, "outputs/draft_df/Suppl_3_2_108LMICs.csv")
 
