@@ -20,3 +20,6 @@ data/under_5.csv
 data/UNIndex/pc_gdp.RDS
 data/GBD_PPP.csv
 .Rapp.history
+
+# Public-use antibiotic consumption data obtained from One Health Trust
+data/DDD_country_year_class.csv
