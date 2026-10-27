@@ -104,8 +104,8 @@ The Zenodo archive contains the checkpoint files required for public reproductio
 - the main analysis beginning with `Final_10`
 - the sensitivity analysis beginning with `Final_21`
 
-**Zenodo DOI:** To be added after publication  
-**Zenodo record:** To be added after publication
+**Zenodo DOI:** 10.5281/zenodo.23682053
+**Zenodo record:** https://doi.org/10.5281/zenodo.23682053
 
 ## Software
 
