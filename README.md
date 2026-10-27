@@ -37,7 +37,8 @@ The publicly supported reproduction workflow for the main analysis begins with `
 
 Analysis checkpoint files required for the downstream analyses are archived separately on Zenodo. These checkpoints allow reproduction of the downstream estimates, tables, and figures without redistribution of individual-level DHS microdata or the original IHME/GBD source-data extracts.
 
-To reproduce the downstream main analyses:
+[!IMPORTANT]
+**To reproduce the downstream main analyses:**
 
 1. Clone or download this repository.
 2. Download the main-analysis checkpoint files from the associated Zenodo record.
