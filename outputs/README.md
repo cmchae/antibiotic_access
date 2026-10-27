@@ -75,5 +75,7 @@ Because the required DHS and IHME/GBD upstream inputs cannot be redistributed th
 
 The Zenodo archive contains the checkpoint files required for public reproduction of both the main analysis beginning with `Final_10` and the sensitivity analysis beginning with `Final_21`.
 
-The Zenodo DOI and download link will be added here once the archive is published.
+**Zenodo DOI:** 10.5281/zenodo.23682053  
+
+**Zenodo record:** https://doi.org/10.5281/zenodo.23682053
 ```
