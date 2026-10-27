@@ -37,15 +37,15 @@ The publicly supported reproduction workflow for the main analysis begins with `
 
 Analysis checkpoint files required for the downstream analyses are archived separately on Zenodo. These checkpoints allow reproduction of the downstream estimates, tables, and figures without redistribution of individual-level DHS microdata or the original IHME/GBD source-data extracts.
 
-[!IMPORTANT]
-**To reproduce the downstream main analyses:**
+> [!IMPORTANT]
+> **To reproduce the downstream main analyses:**
 
-1. Clone or download this repository.
-2. Download the main-analysis checkpoint files from the associated Zenodo record.
-3. Place the checkpoint files in the `outputs/` directory as specified in `outputs/README.md`.
-4. Use the repository root as the working directory.
-5. Run `scripts/Final_10_Extrapolation_and_absolute_number_revised.R`.
-6. Continue through `Final_19` as needed.
+> 1. Clone or download this repository.
+> 2. Download the main-analysis checkpoint files from the associated Zenodo record.
+> 3. Place the checkpoint files in the `outputs/` directory as specified in `outputs/README.md`.
+> 4. Use the repository root as the working directory.
+> 5. Run `scripts/Final_10_Extrapolation_and_absolute_number_revised.R`.
+> 6. Continue through `Final_19` as needed.
 
 See `outputs/README.md` and `scripts/README.md` for the required checkpoint files and additional instructions.
 
