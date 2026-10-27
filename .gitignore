@@ -1,0 +1,23 @@
+# macOS / RStudio
+.DS_Store
+.Rproj.user/
+
+# Restricted DHS microdata
+data/datasets/*
+!data/datasets/README.md
+
+# Restricted/upstream IHME inputs
+data/All_inf2.csv
+data/malaria_proportion.csv
+
+# Outputs are not stored in GitHub
+outputs/*
+!outputs/README.md
+
+# Local / unused files
+*.Rproj
+figures/
+data/under_5.csv
+data/UNIndex/pc_gdp.RDS
+data/GBD_PPP.csv
+.Rapp.history
