@@ -37,15 +37,15 @@ The publicly supported reproduction workflow for the main analysis begins with `
 
 Analysis checkpoint files required for the downstream analyses are archived separately on Zenodo. These checkpoints allow reproduction of the downstream estimates, tables, and figures without redistribution of individual-level DHS microdata or the original IHME/GBD source-data extracts.
 
-[!IMPORTANT]
-**To reproduce the downstream main analyses:**
+> [!IMPORTANT]
+> **To reproduce the downstream main analyses:**
 
-1. Clone or download this repository.
-2. Download the main-analysis checkpoint files from the associated Zenodo record.
-3. Place the checkpoint files in the `outputs/` directory as specified in `outputs/README.md`.
-4. Use the repository root as the working directory.
-5. Run `scripts/Final_10_Extrapolation_and_absolute_number_revised.R`.
-6. Continue through `Final_19` as needed.
+> 1. Clone or download this repository.
+> 2. Download the main-analysis checkpoint files from the associated Zenodo record.
+> 3. Place the checkpoint files in the `outputs/` directory as specified in `outputs/README.md`.
+> 4. Use the repository root as the working directory.
+> 5. Run `scripts/Final_10_Extrapolation_and_absolute_number_revised.R`.
+> 6. Continue through `Final_19` as needed.
 
 See `outputs/README.md` and `scripts/README.md` for the required checkpoint files and additional instructions.
 
@@ -55,12 +55,13 @@ The publicly supported sensitivity-analysis workflow begins with `Final_21`.
 
 Sensitivity-specific checkpoint files are archived in the same Zenodo record. These files allow reproduction of the downstream sensitivity-analysis estimates, tables, and figures without access to the individual-level DHS microdata or original IHME/GBD source-data extracts.
 
-To reproduce the sensitivity analysis:
+> [!IMPORTANT]
+> **To reproduce the sensitivity analysis:**
 
-1. Download the sensitivity-analysis checkpoint files from the associated Zenodo record.
-2. Place them in `outputs/sensitivity_analysis/` as specified in `outputs/README.md`.
-3. Ensure the required shared checkpoint files are present in `outputs/`.
-4. Run `scripts/Final_21_Sensitivity_analysis_from_checkpoint.R`.
+> 1. Download the sensitivity-analysis checkpoint files from the associated Zenodo record.
+> 2. Place them in `outputs/sensitivity_analysis/` as specified in `outputs/README.md`.
+> 3. Ensure the required shared checkpoint files are present in `outputs/`.
+> 4. Run `scripts/Final_21_Sensitivity_analysis_from_checkpoint.R`.
 
 The complete sensitivity-analysis workflow, including upstream processing, is documented in `scripts/Final_20_Sensitivity_analysis.R`.
 
